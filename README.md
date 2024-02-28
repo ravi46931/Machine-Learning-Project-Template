@@ -16,4 +16,6 @@ RUN: `python src\pipeline\train_pipeline.py` command on activating the env, this
 
 artifacts and Logs are generated during the running 
 
+Code is saved on GitHub: https://github.com/ravi46931/Machine-Learning-Project-Template/
+
  
