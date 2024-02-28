@@ -1,0 +1,23 @@
+[ 2024-02-28 17:36:14,623 ] root - INFO - Entered the data ingestion component 
+[ 2024-02-28 17:36:14,699 ] root - INFO - Read the dataset as dataframe
+[ 2024-02-28 17:36:14,722 ] root - INFO - Data ingested (saved) successfully
+[ 2024-02-28 17:36:14,722 ] root - INFO - Enter in the data transformation components
+[ 2024-02-28 17:36:14,722 ] root - INFO - Fetching data from the ingested location
+[ 2024-02-28 17:36:14,728 ] root - INFO - Column mapping 
+[ 2024-02-28 17:36:14,751 ] root - INFO - Dropping unnecessary columns
+[ 2024-02-28 17:36:14,767 ] root - INFO - Transforming the data column
+[ 2024-02-28 17:36:14,778 ] root - INFO - Split dataset into train and test
+[ 2024-02-28 17:36:14,820 ] root - INFO - Transforming data set
+[ 2024-02-28 17:36:14,832 ] root - INFO - Concat the transformed feature with target
+[ 2024-02-28 17:36:14,839 ] root - INFO - Data transformation completed
+[ 2024-02-28 17:36:14,870 ] root - INFO - Exited from the data transformation components
+[ 2024-02-28 17:36:14,870 ] root - INFO - Enter in the model trainer components
+[ 2024-02-28 17:36:14,871 ] root - INFO - Reading the training data from the artifact
+[ 2024-02-28 17:36:14,877 ] root - INFO - Initiating model training
+[ 2024-02-28 17:36:18,677 ] root - INFO - Model training completed
+[ 2024-02-28 17:36:18,687 ] root - INFO - Exited from model training component
+[ 2024-02-28 17:36:18,687 ] root - INFO - Enter in the model evaluation components
+[ 2024-02-28 17:36:18,687 ] root - INFO - Loading the model...
+[ 2024-02-28 17:36:18,694 ] root - INFO - Model evaluation started
+[ 2024-02-28 17:36:18,709 ] root - INFO - Model evaluation completed
+[ 2024-02-28 17:36:18,717 ] root - INFO - Exited from the model evaluation components
